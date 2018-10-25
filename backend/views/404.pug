@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+ head
+  title Error 404 - CDP System Node
+  script(src='/js/jquery.js')
+  script(src='/js/popper/popper.min.js')
+  script(src='/js/bootstrap/bootstrap.min.js')
+  script(src='/js/global.js')
+  link(rel='shortcut icon' href='/favicon.png' type='image/png')
+
+  link(rel='stylesheet' href='/css/bootstrap/bootstrap.css')
+  link(rel='stylesheet' href='/css/global.css')
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto')
+
+ body
+
+  div(class='container-fluid')
+   div(class='row')
+    div(class='col-md-11 error')
+     h1= 'CDP System Node - Error '+error
+    div(class='col-md-1 error text-right')
+     p= 'Load Time: 0.00' + loadTime
+
+  div(class='container body-container')
+   div(class='row')
+    div(class='col-md-12 body-title text-center')
+     h2 Ups something when wrong
+    div(class='col-md-12 body-header')
+     p="There's some information about the request"
+    div(class='col-md-12 body-info')
+     ul
+      li= 'Request ip: ' + ip
+      li= 'Request path: ' + requestUrl

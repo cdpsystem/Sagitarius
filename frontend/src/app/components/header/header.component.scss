@@ -1,0 +1,11 @@
+@import 'src/styles/partials/variables';
+.container-fluid{
+	// Style
+	background-color: $title-background;
+
+    //Nesteds
+    p{color: $title-color;}
+    p span.version{color: green;}
+	p.title{font-size: $title-text-size;}
+
+}

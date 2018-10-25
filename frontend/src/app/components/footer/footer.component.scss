@@ -1,0 +1,5 @@
+@import 'src/styles/partials/variables';
+.container-fluid{
+	background-color: $title-background;
+	color: $title-color;
+}

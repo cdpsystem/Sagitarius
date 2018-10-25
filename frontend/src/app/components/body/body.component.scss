@@ -1,0 +1,13 @@
+@import 'src/styles/partials/variables';
+.container{margin-bottom: 56px;margin-top: 56px}
+.card{border: 1px solid black;min-height:200px}
+.card .card-header{
+	color: $title-color
+}
+.header-bootstrap{background-color: #a63d40}
+.header-popper{background-color: #465362}
+.header-jquery{background-color: #e9b872}
+.header-moment{background-color: #291528}
+.header-sass{background-color: #462255}
+.header-chart{background-color: #540804}
+.header-ngxloadingbar{background-color: #197278}

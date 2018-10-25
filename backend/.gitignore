@@ -1,0 +1,10 @@
+/node_modules
+/logs
+/config/config.js
+/psd
+
+favicon.ico
+favicon.png
+
+.env
+
